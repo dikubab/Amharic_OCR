@@ -1,18 +1,20 @@
 
-## MMOCR for Detection and Recognition of Amharic Scene Text  
+## Detection and Recognition of Amharic Scene Text using MMOCR toolboxs  
 
 MMOCR is an open-source toolbox based and for details of installation and relate information see (https://github.com/open-mmlab/mmocr. 
 
 Geʽez/Abugida/Ethiopic script has up 519 characters. For Amharic, we use 289-319 characters depending on whether we use Ethiopic numerals and punctuation. There are no capital or small letters. 
 
-## MMOCR usage for Amharic Text Detection
+The datasets for both detection and recognition can be downloaded from the website https://dk-liang.github.io/HUST-ASTD/. 
+
+## Amharic Text Detection dataset preprocessing
 
 We have two datasets for the detection task. HUST-ART is the real word dataset, and HUST-AST is the synthetic dataset. HUST-ART consists of 1500 training images and 700 test images. HUST-AST comprises 75,904 training images.
  To convert the datasets labels to MMOCR format, use tools/data/textdet/icdar_converter.py as follows
 
  python tools/data/textdet/icdar_converter.py det_datasets/HUST-ART -o det_datasets/HUST-ART -d icdar2015 --split-list training test
 
-## Amharic Text Recognition 
+## Amharic Text Recognition  
 We have two training sets and two test sets datasets. Tana (TN) and Waliya (WL) training set consist of 2.85 and 4M cropped words, respectively. HUST-ART and ABE test sets consist of 4039 and 5218 text images. We also have a validation dataset consisting of 14835 text images, which is the training part of HUST-ART and ABE. All five datasets are in LMDB format.  
 
 MMOCR usage

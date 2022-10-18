@@ -6,7 +6,7 @@ MMOCR is an open-source toolbox based and for details of installation and relate
 Geʽez/Abugida/Ethiopic script has up 519 characters. For Amharic, we use 289-319 characters depending on whether we use Ethiopic numerals and punctuation. There are no capital or small letters. 
 
 The datasets for both detection and recognition can be downloaded from the website https://dk-liang.github.io/HUST-ASTD/. 
-
+The LMDB related dataset link will be provided very soon. 
 ## Amharic Text Detection dataset preprocessing
 
 We have two datasets for the detection task. HUST-ART is the real word dataset, and HUST-AST is the synthetic dataset. HUST-ART consists of 1500 training images and 700 test images. HUST-AST comprises 75,904 training images.

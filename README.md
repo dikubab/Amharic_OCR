@@ -23,7 +23,7 @@ MMOCR usage
 The datasets for both detection and recognition can be downloaded from the website https://dk-liang.github.io/HUST-ASTD/. 
 
 The Waliya related LMDB dataset link will be provided very soon.
-1.  Test sets LMDB https://mega.nz/folder/Ub0SnBBa#Fh6pFqbvXVxsa7OJPfJEwA
+1.  Test and Validation sets LMDB https://mega.nz/folder/Ub0SnBBa#Fh6pFqbvXVxsa7OJPfJEwA
 2.  Tana(TN) LMDB https://mega.nz/folder/NGcC1DaQ#soagog8p_LgOnm6Gx9wdCQ
 ## Citation
 

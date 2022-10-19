@@ -32,7 +32,7 @@ If you find our datasets are useful in your research, please consider cite:
 @article{dikubab2022comprehensive,
   title={Comprehensive benchmark datasets for Amharic scene text detection and recognition},
   author={Dikubab, Wondimu and Liang, Dingkang and Liao, Minghui and Bai, Xiang},
-  journal={Science China Information Sciences, Vol. 65, Article number: 160106},
+  journal={Science China Information Sciences, Vol. 65, Special Focus on Deep Learning for Computer Vision, Article number: 160106},
   year={2022}
 }
 ```

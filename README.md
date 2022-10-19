@@ -21,6 +21,7 @@ MMOCR usage
 2.  In the directory configs/_base_/recog_datasets/, you need to modify the path of test and train datasets.
 3.  In the directory mmocr/models/textrecog/convertors/ base.py define the dictionary using the 314 Amharic characters. No need to worry we have modified it. Based on your character set, modify dict_type in all other related files. We have modified the configs/textrecog/satrn/satrn_small.py settings. You can use it as an example.  
 The datasets for both detection and recognition can be downloaded from the website https://dk-liang.github.io/HUST-ASTD/. 
+
 The Waliya related LMDB dataset link will be provided very soon.
 1.  Test sets LMDB https://mega.nz/folder/Ub0SnBBa#Fh6pFqbvXVxsa7OJPfJEwA
 2.  Tana(TN) LMDB https://mega.nz/folder/NGcC1DaQ#soagog8p_LgOnm6Gx9wdCQ
